@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* HEADER */
+
+.header{
+    background: url("img/banner.jpg") center/cover;
+    height: 90vh;
+}
+.container_header{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-right: 100px;
+    padding-top: 50px;
+}
+ul.list{
+    list-style: none;
+    display: flex; 
+    flex-wrap: wrap;
+    
+}
+ul.list li{
+    margin-left: 50px ;
+
+} 
+ul.list a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px ;
+}
+h1.header_title{
+    margin-left: 80px;
+    margin-top: 100px;
+    color:white; 
+    font-size: 60px;
+}
+h1.header_title span {
+    color: orange;
+}
+  /* MAIN */
+
+.main{
+      background: url("img/second.jpg") center/cover    ;
+      height: 80vh;
+      display: flex;
+      align-items: center;
+  }
+.container_block{
+    width: 78%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.main_block{
+    width: 30%;
+    height: 300px;
+    background: rgba(255,255,255,0.5);
+    margin-right: 35px ;
+    line-height: 300px ;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+/* SECTION */
+.section {
+    background: url(img/third.jpg) center/cover;
+    height: 80vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.container_block2{
+    width: 78%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.section_block{
+    width: 46%;
+    height: 300px;
+    color: white;
+    background: rgba(0,0,0,0.5);
+    margin-right: 35px ;
+    line-height: 300px ;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+/* SECTION2 */
+.section2 {
+    background: url(img/four.jpg) center/cover;
+    height: 80vh;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container_block3{
+    width: 78%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.section_block2  {
+    width: 90%;
+    height: 300px;
+    color: white;
+    background: rgba(255,255,255,0.5);
+    margin-right: 35px ;
+    font-size: 19px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    /* text-align: center; */
+}
+.section_block2 span{
+  font-size: large;
+  gap: 20px ;
+}
